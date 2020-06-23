@@ -155,7 +155,7 @@ class WardrobeApp():
         #tkinter syntax
         image_label.image = tk_photo
 
-
+    #resizes image to fit
     def create_photo(self, image_path, frame):
         image_file = Image.open(image_path)
         image_resized = image_file.resize((IMG_WIDTH, IMG_HEIGHT), Image.ANTIALIAS)
